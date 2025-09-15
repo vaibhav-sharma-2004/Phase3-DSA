@@ -10,7 +10,7 @@ int main(){
     cin>>year;
 
     //find the generation
-
+    
     if(year>2025 || year<1900){
         cout<<"invalid input";
     }

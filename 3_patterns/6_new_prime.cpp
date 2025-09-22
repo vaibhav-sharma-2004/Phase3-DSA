@@ -19,6 +19,7 @@ int main(){
         //check the divisible
         if(num%i==0){
             flag=false;
+            break;
         }
 
         //updation

@@ -1,16 +1,9 @@
-#include<iostream>
-#include<limits.h>
+#include <iostream>
+#include <bitset>
 using namespace std;
 
 int main() {
-    
-    int maxi=INT_MIN-1;
-    cout<<maxi<<'\n';
-    cout<<INT_MAX<<'\n';
-
-    int mini=INT_MAX+1;
-    cout<<mini<<'\n';
-    cout<<INT_MIN;
-
+    unsigned int n = 5; // Example number
+    cout << __builtin_popcount(n) << endl; // Output: 4
     return 0;
 }

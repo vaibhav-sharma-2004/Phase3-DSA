@@ -7,19 +7,19 @@ using namespace std;
 //     return;
 // }
 
-int increase(int &a){
+void  increase(int &x){
 
-    a=a+5;
-    return a;
+    x=x+5;
+    return;
 }
 
 int main(){
 
     int a=5;
 
-    int b=increase(a);
+    increase(a);
     
     cout<<a<<endl;
-    cout<<b<<endl;
+    //cout<<b<<endl;
     return 0;
 }

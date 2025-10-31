@@ -4,6 +4,7 @@ using namespace std;
 
 int main(){
 
+    
     vector<int> a={1,2,5,10,20,50,100,400};
 
     int start=0;

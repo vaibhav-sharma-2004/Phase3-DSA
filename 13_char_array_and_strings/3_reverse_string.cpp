@@ -22,17 +22,24 @@ int main(){
     int l=0;
     int r=size-1;
 
-    while(l<r){
+    // while(l<r){
 
-        swap(str[l],str[r]);
+    //     swap(str[l],str[r]);
 
-        l++;
-        r--;
+    //     l++;
+    //     r--;
 
-        cout<<str[l]<<" "<<str[r]<<endl;
+    //     cout<<str[l]<<" "<<str[r]<<endl;
+    // }
+
+    int n = str.length();
+    for (int i = 0; i < n / 2; i++) {
+        swap(str[i], str[n - i - 1]);
     }
 
-    cout<<str<<endl;
+    cout << "Reversed string: " << str <<endl;
+
+    //cout<<str<<endl;
 
     return 0;
 }
